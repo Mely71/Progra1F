@@ -1,0 +1,5 @@
+El texto proporciona una lista de comandos útiles para usar en la terminal, incluyendo comandos para ver el directorio de trabajo actual, listar archivos, cambiar de directorio, obtener ayuda, ver el manual, mostrar el contenido de un archivo, crear un directorio, abrir archivos con el programa asociado, listar procesos en ejecución, terminar procesos existentes, eliminar archivos y directorios, entre otros.
+
+También incluye instrucciones para trabajar con Git, como clonar un directorio, crear un nuevo proyecto, ramificar y fusionar cambios, eliminar proyectos, fusionar con los cambios de origen, importar y exportar parches, inspeccionar revisiones, referirse a revisiones, comparar revisiones, y establecer Sublime como editor de texto predeterminado.
+
+Además, proporciona instrucciones para configurar Sublime como editor de texto predeterminado en la terminal.

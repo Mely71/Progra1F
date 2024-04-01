@@ -1,0 +1,25 @@
+pwd    = Imprimir 
+ls     = lista de archivos 
+cd     = cambio de directorio 
+~      = inio de un drirectorio      
+..     = subir un directorio      
+-      = directorio del trabajo anterior       
+help   = conseguir ayuda      
+-h     = conseguir ayuda      
+--help = conseguir ayuda      
+man    = manual      
+cat    = genera el contenido de un archivo      
+mkdir  = crea un nuevo directorio      
+open   = abrir un archivo con el programa asociado o con una URL.
+ps     = enumera todosl los procesos       
+kill   = termina el proceso existente      
+rmd    = elimina permanentemente un archivo      
+rmdir  = elimina un directorio 
+
+#Trabajando con Git
+### Inicio rapido
+
+git clon <url>
+git checkout-b <nueva-rama>
+git push-u origen <nueva-rama>
+git push origen <rama>

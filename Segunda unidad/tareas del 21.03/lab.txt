@@ -1,0 +1,89 @@
+ejercicio 2 
+
+#include <iostream>
+using namespace std; 
+int main() { 
+	
+	int numero; 
+	cout << "ingrese un numero entero para poder ver si tiene divisor: ";
+	
+	cin >> numero; 
+
+	for (int entero = 1; entero <= numero; entero++) {
+		if (numero % entero)
+			cout << "el divisor es: " << entero << "" << endl; 
+	}
+
+	
+}
+
+ejercicio 4 
+#include <iostream>
+using namespace std; 
+int main() { 
+	
+	double millas; 
+	
+
+	double yardaspormillas = 1760; 
+	double millasporpies = 5280;
+	double millasporpulgadas = 63360; 
+
+	cout << "ingrese el numero para convertir: ";  cin >> millas;
+
+	double yardas =  millas * yardaspormillas ; 
+	double pies = millas * millasporpies ;
+	double pulgadas = millas * millasporpulgadas ; 
+
+	cout << "el millas equivale a : " << millas << endl; 
+	cout << "yardas equivale a: " << yardas << endl; 
+	cout << "pies equivale a: " << pies << endl;
+	cout << "pulgadas equivale a: " << pulgadas << endl; 
+}
+
+ejercicio 6 
+
+#include <iostream>
+using namespace std; 
+#include <string> 
+
+int main() {
+
+	string sabores[6] ; 
+
+
+	int cantidad;
+	
+	
+
+	cout << "le ofrecemos estos sabores: " << endl;
+	cout << "1. chocolate." << endl;
+	cout << "2. vainilla." << endl;
+	cout << "3. cereza." << endl;
+	cout << "4. chocomenta." << endl;
+	cout << "5. chocomora." << endl;
+	cout << "6. coca cola." << endl;
+	
+
+	cout << "ingrese la cantidad de bolas que quiere (mximo de bolas  6)" << endl;
+
+	cin >> cantidad;
+
+
+	if (cantidad > 6 || cantidad  <1 ) {
+		cout << "la cantidad maxima es de 6 sabores" << endl;
+		
+	}
+	for (int x1 = 0; x1 < cantidad; x1++) {
+		cout << "ingrese el sabor de la bola de helado: " << x1 + 1 << ": ";
+		cin >> sabores[x1];
+		
+	}
+	cout << "usted ha elegido estos sabores de helado: " << endl;
+	for (int x1 = 0; x1 < cantidad; x1++) {
+		cout << "bola" << x1 + 1 << ": " << sabores[x1] << endl; 
+		 
+	}
+	return 0; 
+}
+
